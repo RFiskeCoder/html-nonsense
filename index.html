@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Practice Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Pong Game</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <h1>Practice Website</h1>
-  <h2>A website for practicing HTML skills.</h2>
-  <br>
-  <p><a href="about.html">About</a></p>
-  <br>
-  <h1>Practice Sections:</h1>
-  <h2> <a href="basic-html.html">Basic HTML Practice</a> </h2>
-  <h2> <a href="advanced-html.html">Advanced HTML Practice</a> </h2>
+  <h1>Simple Pong</h1>
+  <div id="game-container">
+    <canvas id="pong-canvas" width="800" height="500"></canvas>
+  </div>
+  <script src="game.js"></script>
 </body>
 </html>
